@@ -7,11 +7,8 @@ body{
 .borde{
 border: solid black;
 }
-.widthcards{
-  width: 75%;
-}
 
 .cardcenter{
-margin-left: 200px;
-margin-right: 200px;
+padding-left: 6%;
+
 }
