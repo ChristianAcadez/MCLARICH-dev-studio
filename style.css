@@ -3,10 +3,6 @@ body{
   color: blue;
   text-align: center;
 }
-
-h1{
-  color: #13557;
-}
 ul{
   list-style-type: none;
   background-color: #457b9d;
@@ -26,3 +22,6 @@ li a{
 }
 li a:hover{
   background-color: #1d3557;
+}
+
+
