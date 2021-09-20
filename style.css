@@ -44,4 +44,6 @@ li a:hover{
 .picture{
   max-width: 50px;
   max-height: 50px;
+  height: auto;
+  width: auto;
 }
