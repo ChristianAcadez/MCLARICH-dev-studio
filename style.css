@@ -52,5 +52,7 @@ body{
   display: grid;
   text-align: center;
   padding: 10px
+  position: absolute;
+  bottom: 0;
 }
 
