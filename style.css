@@ -7,3 +7,6 @@ body{
 .borde{
 border: solid black;
 }
+.widthcards{
+  width: 72%;
+}
