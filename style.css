@@ -1,0 +1,14 @@
+body{
+<<<<<<< HEAD
+<<<<<<< HEAD
+  background-color: pink;
+=======
+  background-color: rgb(204, 34, 62);
+  color: blue;
+>>>>>>> 2e95c822b954da245e26c6a5974c99b25eb27145
+=======
+  background-color: rgb(248, 132, 151);
+  color: blue;
+  text-align: center;
+>>>>>>> 3d36ac59c7521ce6f17bef8a9f812bc2397e3f75
+}
