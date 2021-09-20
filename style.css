@@ -16,7 +16,7 @@ body{
   background: rgb(199, 199, 199); 
   display: grid;
   grid-template-columns: 5% auto 5%;
-  grid-template-rows: 70px 300px 500px 420px 55px;
+  grid-template-rows: 70px 300px 500px 420px 70px;
   color: rgb(0, 0, 0);
   grid-gap:15px
 }
@@ -48,11 +48,15 @@ body{
 
 .footer{
   grid-row: 5;
-  grid-column: 2 / 3;
+  grid-column: 1 / 4;
   display: grid;
   text-align: center;
-  padding: 10px
-  position: absolute;
+  padding: 10px;
+  background-color: black;
+  color: #FFBB01;
+  width: 100%;
+  height: auto;
+  position: fixed;
   bottom: 0;
 }
 
