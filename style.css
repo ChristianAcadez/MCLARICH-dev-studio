@@ -11,8 +11,9 @@ body{
 }
 
 .proyect{
-  width: 75%;;
+  width: 75%;
   margin: auto;
+  /*background-color: rgb(212, 210, 210);*/
 }
 .footer {
   background-color: black;
@@ -22,7 +23,7 @@ body{
   bottom: 0;
   width: 100%;
   height: 60px;
-  color: white;
+  color: rgb(243, 239, 7);
 }
 .imagen{
   border: solid black 1px;
