@@ -1,5 +1,7 @@
 .caja{ 
   width: 100%;
+  top: 0;
+  left: 0;
   background: rgb(0, 0, 0);
   display: inline-block;
   border-radius: 0px;
@@ -29,8 +31,6 @@
 
 .NavBar11{
   float: right;
-  display: inline-block;
-
 }
 
 .titulo{
