@@ -1,17 +1,39 @@
+.caja{ 
+  width: 100%;
+  background: rgb(0, 0, 0);
+  display: inline-block;
+  border-radius: 0px;
+  text-align: justify;
+  padding-bottom: 0px;
+  position: fixed;
+  font-family: lora;
+  font-size: 21px;
+  padding-top: 15px;
 
-.container{
-  background-color:black;
 }
 
-.nav-link{
+#navegador li{
+  display: inline;
+  text-align: center;
+  margin: 0 25px 0 0;
   color: yellow;
+  margin-top: 20px;
+}
+
+#navegador li a {
+  display: inline-block;
+  padding: 2px 30px 2px 7px;
+  color: yellow;
+  text-decoration: none;
+}
+
+.NavBar11{
+  float: right;
+  display: inline-block;
+
 }
 
 .titulo{
+  color: rgb(230, 226, 3);
   text-align: center;
-  color: rgb(243, 239, 7);
-}
-
-#descripcion {
-  background-color: rgb(212, 210, 210);
 }
