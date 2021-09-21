@@ -29,3 +29,20 @@ body{
 .aboutproyect{
   text-align: justify;
 }
+
+.nav-link{
+  color: yellow;
+}
+
+.titulo{
+  text-align: center;
+  color: rgb(243, 239, 7);
+}
+
+#descripcion {
+  background-color: rgb(212, 210, 210);
+}
+
+.colorNavbar{
+  background-color:rgb(0, 0, 0);
+}
