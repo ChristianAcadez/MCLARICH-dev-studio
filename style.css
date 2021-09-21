@@ -1,5 +1,17 @@
-body{
-  background-color: rgb(248, 132, 151);
-  color: blue;
+
+.container{
+  background-color:black;
+}
+
+.nav-link{
+  color: yellow;
+}
+
+.titulo{
   text-align: center;
+  color: rgb(243, 239, 7);
+}
+
+#descripcion {
+  background-color: rgb(212, 210, 210);
 }
