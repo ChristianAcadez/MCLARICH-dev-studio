@@ -17,7 +17,7 @@ body{
 }
 .footer {
   background-color: black;
-  position: fixed;
+  position: absolute;
   text-align: center;
   align-items: center;
   bottom: 0;
@@ -28,6 +28,13 @@ body{
 .imagen{
   border: solid black 1px;
   padding: 20px;
+  border-radius: 0%;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 100px;
+  min-height: 100px;
 }
 .aboutproyect{
   text-align: justify;
