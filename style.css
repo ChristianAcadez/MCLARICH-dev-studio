@@ -1,5 +1,71 @@
+html{
+  min-height: 100%;
+  position: relative;
+}
 body{
-  background-color: rgb(248, 132, 151);
-  color: blue;
+  /*background-color: #EEEEEE;*/
+  color:black;
+  margin: 0;
+  margin-bottom: 40px;
   text-align: center;
+}
+
+.proyect{
+  width: 75%;
+  margin: auto;
+  /*background-color: rgb(212, 210, 210);*/
+}
+.footer {
+  background-color: black;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  color: rgb(243, 239, 7);
+}
+.imagen{
+  border: solid black 1px;
+  padding: 20px;
+  border-radius: 0%;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 100px;
+  min-height: 100px;
+}
+.aboutproyect{
+  text-align: justify;
+}
+
+.nav-link{
+  color: yellow;
+}
+
+.titulo{
+  text-align: center;
+  color: rgb(243, 239, 7);
+}
+
+#descripcion {
+  background-color: rgb(212, 210, 210);
+}
+
+.colorNavbar{
+  background-color:rgb(0, 0, 0);
+}
+
+.box{    
+  transition: transform 300ms, box-shadow 300ms;
+}
+.box:hover{
+  transform: scale(1.1);
+  box-shadow: 0 15px 40px rgb(49, 49, 1);
+}
+
+.titlemod{
+  text-align: center;
+  padding-bottom: 3%;
 }
