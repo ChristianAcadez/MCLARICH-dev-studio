@@ -54,3 +54,8 @@ body{
   transform: scale(1.1);
   box-shadow: 0 15px 40px rgb(49, 49, 1);
 }
+
+.titlemod{
+  text-align: center;
+  padding-bottom: 3%;
+}
