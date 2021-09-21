@@ -1,15 +1,15 @@
 body{
-  background-color: rgb(248, 132, 151);
-  color: blue;
+  background-color: #eeee;
+  color: black;
   text-align: center;
 }
 
 h1{
-  color: #13557;
+  color: black;
 }
 ul{
   list-style-type: none;
-  background-color: #457b9d;
+  background-color: black ;
   overflow: hidden;
   margin: 0;
   padding: 0;
