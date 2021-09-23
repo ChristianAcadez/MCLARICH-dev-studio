@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.container{
+  background:#FFF4F8; 
+  color: #644747; 
+  
+  display: grid;
+  grid-template-rows: 60px auto 100px;
+}
+
+.navbar{
+  grid-row: 1;
+  background:#FFCCD3
+  display: grid;
+}
+
+.logincontent{
+  grid-row: 2;
+  background:#FFF4F8;
+  display: grid; 
+
+    /*inside grid*/
+    grid-template-rows: 10% 60% 20% 10%;
+}
+
+.changebutton{
+  grid-row: 1;
+}
+.input{
+  grid-row: 2;
+
+  /*inside grid*/
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.loginicons{
+  grid-row: 3;
+
+}
+.sendbutton{
+  grid-row: 4;
+
+}
+
+.footer{
+  grid-row: 3;
+  background:#644747; 
+  display: grid;
+}
