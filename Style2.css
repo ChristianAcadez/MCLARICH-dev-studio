@@ -8,12 +8,14 @@ html, body{
   height: 100%;
   width: 100%; 
   background: #FFC94E;
+  font-family: 'Poppins', sans-serif;
 }
 .grid{
-  grid-template-rows: 50px auto 130px 200px 200px 200px 50px ;
-  grid-template-columns: 7% auto 5%;
+  grid-template-rows: 50px 750px 250px auto 150px auto 60px ;
+  grid-template-columns: 5% auto ;
   display: grid;
 }
+/*--------------------------*/
 .box1{
   grid-row: 1;
   grid-column: 2/4;
@@ -30,6 +32,7 @@ html, body{
   text-decoration: none;
   justify-content: center;
   align-items: center;
+  margin-left: -5%;
 }
 .box1 ul li {
   list-style-type: none;
@@ -40,50 +43,48 @@ html, body{
   text-decoration: none;
   color: #FFC94E;
 }
+/*--------------------------*/
 .box2{
   grid-row: 2;
   grid-column: 1/4;
   background-color: rgb(255, 255, 255);
   display: grid;
+  background-image: url(Fondo.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center;
 }
-.imgen img{
-  position:relative;
-  height: auto; 
-  width: 100%; 
-  max-width: auto; 
-  max-height: 700px;
+.back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .back img{
-  position:relative;
-  max-width: 400px; 
-  max-height: 3000px;
+  max-width: 40rem; 
+  max-height: 40rem;
   height: auto; 
   width: auto; 
-  top: 50%;
-  left: 50%;
-  transform-origin: translate (-50%,-50%);
-
+}
+.logo{
+  position: absolute;
 }
 .logo img{
-  position:relative;
-  max-width: 300px; 
-  max-height: 200px;
+  max-width: 30rem; 
+  max-height: 30rem;
   height: auto; 
   width: auto; 
-  align-self: center;
-  justify-content: center;
- 
-  
-}
+} 
 .frase{
-  position:absolute;
-  color: white; 
-  top: 50%;
-  left: 50%;
-  transform-origin: translate (-50%,-50%);
+  display: flex;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
-
-
+/*--------------------------*/
 .box3{
   grid-row: 3;
   grid-column: 2/4;
@@ -95,32 +96,117 @@ html, body{
   text-align: left;
   padding-left: 30px;
   padding-right: 25px;
+  font-size: larger;
+  font-size: 1.5rem;
+  font-weight:400;
+  margin-right: 1.5rem;
+}
+/*--------------------------*/
+.b4{
+  grid-row: 4;
+  grid-column: 1/2;
+  display: grid;
+  grid-template-rows: 13rem 60rem;
+}
+.b41{
+  grid-row: 1;
+  background-color: rgb(0, 0, 0);
+  display: grid;
 }
 .box4{
   grid-row: 4;
-  grid-column: 1/4;
-  background-color: rgb(100, 230, 68);
+  grid-column: 2/4;
+  background-color: rgb(255, 255, 255);
   display: grid;
+  grid-template-rows: 13rem 60rem;
+
 }
+.box4-1{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 8rem;
+  font-weight:700;
+  margin-left: -2%;
+}
+.box4-2{
+  font-size: 8rem;
+  font-weight:700;
+  margin-left: -2%;
+}
+/*--------------------------*/
 .box5{
   grid-row: 5;
   grid-column: 2/4;
-  background-color: rgb(255, 153, 127);
   display: grid;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 4rem;
+  font-weight:700;
+  margin-left: -2%;
+  justify-content: center;
 }
+.box5 h2{
+  margin-left: -5%;
+}
+/*--------------------------*/
 .box6{
   grid-row: 6;
   grid-column: 2/4;
   background-color: rgb(255, 255, 255);
   display: grid;
+  height: 60rem;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 .divinitedarks{
-  max-width: 150px; 
-  max-height: 150px;
+  grid-row: 1;
+  grid-column: 1;
+  max-width: 25rem; 
+  max-height: 25rem;
   height: auto; 
   width: auto; 
-  margin: 20px;
+  align-self: center;
+  display: grid;
+
+
 }
+.projectdescription{
+  grid-row: 1;
+  grid-column: 2;
+  align-self: center;
+  margin-right: 2.5rem;
+  line-height: 35px;
+  margin-bottom: 35px
+}
+.projectdescription p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  }
+.projectdescription h3{
+font-size: 1.7rem;
+font-weight: 700;
+}
+.btn{
+  grid-row: 2;
+  grid-column: 1;
+  background-color: #FFC94E;
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  font-weight:700;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: 3rem;
+  border-color: black;
+  box-sizing: 3px;
+  align-self: center;
+  
+}
+
+
+
+/*--------------------------*/
 .box7{
   grid-row: 7;
   grid-column: 1/4;
@@ -131,5 +217,5 @@ html, body{
   align-self: center;
   text-align: center;
   color: #FFC94E;
-  font-size: small;
+  font-size: medium;
 }
