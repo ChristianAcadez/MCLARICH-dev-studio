@@ -166,6 +166,8 @@ html, body{
   height: auto; 
   width: auto; 
   align-self: center;
+  display: grid;
+
 
 }
 .projectdescription{
