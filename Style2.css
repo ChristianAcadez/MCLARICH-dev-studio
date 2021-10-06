@@ -302,3 +302,66 @@ font-weight: 700;
   font-size: medium;
   font-weight: 500;
 }
+
+
+/*Martin*/
+
+.card{
+  height: 260px;
+  width: 250px;
+  overflow: hidden;
+  margin: auto;
+  /*padding: 10px 30px;*/ 
+  transition: all .4s ease-in-out;
+  overscroll-behavior-block: black(0,0,0,0.3);
+  text-align: center;
+}
+
+.card:hover{
+  height: 410px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px black(0,0,0,0.5);border-radius: 2%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px 0px; 
+  
+}
+
+.card-encabezado img {
+  position: relative;
+  border-radius: 50%;
+  display: block;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: 20px auto;
+  transition: all 0.3s ease;
+}
+
+.card-contenido{
+  font-family: lora;
+  font-size: 21px;
+}
+
+.cargo{
+  background-color: #FFC94E;
+  padding: 2px 3px 3px 3px;
+  font-size: 27px;
+}
+
+.card-iconos{
+  list-style: none;
+  flex-direction: row;
+  display: inline-block;
+  position: relative;
+
+}
+
+.centraditos{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+}
