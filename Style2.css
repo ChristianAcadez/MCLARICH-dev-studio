@@ -32,7 +32,7 @@ html, body{
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  margin-left: -5%;
+  margin-left: -7%;
 }
 .box1 ul li {
   list-style-type: none;
@@ -191,9 +191,15 @@ html, body{
 font-size: 1.7rem;
 font-weight: 700;
 }
-.btn{
+.b1{
   grid-row: 2;
   grid-column: 1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn{
   background-color: #FFC94E;
   color: rgb(0, 0, 0);
   font-size: 4rem;
@@ -205,9 +211,6 @@ font-weight: 700;
   border-radius: 3rem;
   cursor: pointer;
   border-style: none;
-  display: flex;
-  align-items: center;
-  justify-items: center;
 }
 .mockup{
 
