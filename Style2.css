@@ -12,7 +12,7 @@ html, body{
 }
 .grid{
   grid-template-rows: 60px 750px 250px 14.4rem auto 150px auto 60px ;
-  grid-template-columns: 5% 95% ;
+  grid-template-columns: 5% auto ;
   display: grid;
 }
 /*--------------------------*/
@@ -70,7 +70,6 @@ html, body{
 }
 .logo{
   position: absolute;
-  margin-left: 2rem;
 }
 .logo img{
   max-width: 30rem; 
@@ -166,7 +165,7 @@ html, body{
   display: flex;
   justify-content: center;
   margin-top: -4rem;
-  padding-right: 9rem;
+  padding-right: 10rem;
   z-index: 2;
 }
 .card5{
