@@ -226,14 +226,12 @@ html, body{
   object-fit: cover;
   margin: 20px auto;
   transition: all 0.3s ease;
-  z-index: 0;
 }
 .card-contenido{
   font-size: 21px;
   font-family: 'Poppins', sans-serif;
   font-weight: 00;
   font-size: 2rem;
-  z-index: 1;
 }
 
 .cargo{
