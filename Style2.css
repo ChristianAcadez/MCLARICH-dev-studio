@@ -11,7 +11,7 @@ html, body{
   font-family: 'Poppins', sans-serif;
 }
 .grid{
-  grid-template-rows: 60px 750px 250px 14.4rem auto 150px auto 60px ;
+  grid-template-rows: 60px 750px 250px 14.4rem auto 150px auto 60px;
   grid-template-columns: 5% auto ;
   display: grid;
 }
@@ -21,7 +21,6 @@ html, body{
   grid-column: 2/4;
   background-color: rgb(0, 0, 0);
   display: grid;
-  position: sticky;
 }
 .nav{
   align-self: center;
@@ -48,7 +47,7 @@ html, body{
 /*--------------------------*/
 .box2{
   grid-row: 2;
-  grid-column: 1/-1;
+  grid-column: 1/4;
   background-color: rgb(255, 255, 255);
   display: grid;
   background-image: url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
@@ -197,7 +196,7 @@ html, body{
 }
 
 .card{
-  height: 20rem;
+  height: 22.7rem;
   width: 25rem;
   overflow: hidden;
   margin: auto;
@@ -206,7 +205,7 @@ html, body{
   text-align: center;
 }
 .card:hover{
-  height: 35rem;
+  height: 36rem;
   width: 25rem;
   border-radius: 5px;
   box-shadow: 0px 2px 10px black(0,0,0,0.5);border-radius: 2%;
@@ -215,7 +214,6 @@ html, body{
   box-shadow: 0px 1px 5px 0px; 
   z-index: 4;
 }
-
 .card-encabezado img {
   position: relative;
   border-radius: 50%;
@@ -232,7 +230,6 @@ html, body{
   font-weight: 00;
   font-size: 2rem;
 }
-
 .cargo{
   background-color: #FFC94E;
   padding: 2px 3px 3px 3px;
@@ -243,11 +240,19 @@ html, body{
 .card-iconos{
   list-style: none;
   flex-direction: row;
-  display: inline-block;
+  display: inline-flex;
   position: relative;
-
 }
-
+.agrandar{
+  margin-inline-start: 1.5rem;
+  margin-inline-end: 1.5rem;
+} 
+.fab{
+  font-size: 3.5rem;
+  margin-bottom: -1rem;
+  margin-top: 10px;
+  color: black;
+} 
 .centraditos{
   display: flex;
   position: relative;
@@ -255,8 +260,6 @@ html, body{
   text-decoration: none;
   list-style: none;
 }
-
-
 
 /*--------------------------*/
 .box6{
@@ -323,8 +326,8 @@ font-weight: 700;
   color: rgb(0, 0, 0);
   font-size: 4rem;
   font-weight:700;
-  padding-right: 4rem;
-  padding-left: 4rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
   border-radius: 3rem;
