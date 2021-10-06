@@ -48,10 +48,10 @@ html, body{
 /*--------------------------*/
 .box2{
   grid-row: 2;
-  grid-column: 1/4;
+  grid-column: 1/-1;
   background-color: rgb(255, 255, 255);
   display: grid;
-  background-image: url(Fondo.svg);
+  background-image: url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   justify-content: center;
@@ -133,23 +133,15 @@ html, body{
   font-weight:700;
   margin-left: -3.5rem;
 }
-img{
-  height: 18rem;
-  width: 18rem;
-  border-radius: 30rem;
-}
-.c1{
-  justify-content: center;
-  
-}
+
 .card1{
   grid-row: 1;
   grid-column: 2;
   display: flex;
   justify-content: center;
   margin-top: -4rem;
+  z-index: 1;
 }
-
 .card2{
   grid-row: 1;
   grid-column: 3;
@@ -157,25 +149,29 @@ img{
   justify-content: center;
   margin-top: -4rem;
   padding-right: 10rem;
+  z-index: 1;
 }
-
 .card3{
   grid-row: 2;
   grid-column: 2;
   display: flex;
   justify-content: center;
   margin-top: -4rem;
+  z-index: 1;
 }
-
 .card4{
   grid-row: 2;
   grid-column: 3;
   display: flex;
   justify-content: center;
   margin-top: -4rem;
+<<<<<<< HEAD
   padding-right: 10rem;
+=======
+  padding-right: 9rem;
+  z-index: 1;
+>>>>>>> ce6ae2163de073c6becbb0c76c161f19ed86d657
 }
-
 .card5{
   grid-row: 3;
   grid-column: 1;
@@ -184,16 +180,16 @@ img{
   margin-top: -4rem;
   padding-left: 35rem;
   padding-right: 10rem;
+  z-index: 1;
 }
-
 .card6{
   grid-row: 3;
   grid-column: 2;
   display: flex;
   justify-content: center;
   margin-top: -4rem;
+  z-index: 1;
 }
-
 .card7{
   grid-row: 3;
   grid-column: 3;
@@ -201,13 +197,70 @@ img{
   justify-content: center;
   margin-top: -4rem;
   padding-right: 10rem;
+  z-index: 1;
 }
 
+.card{
+  height: 20rem;
+  width: 25rem;
+  overflow: hidden;
+  margin: auto;
+  transition: all .4s ease-in-out;
+  overscroll-behavior-block: black(0,0,0,0.3);
+  text-align: center;
+}
+.card:hover{
+  height: 35rem;
+  width: 25rem;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px black(0,0,0,0.5);border-radius: 2%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px 0px; 
+  z-index: 2;
+}
 
+.card-encabezado img {
+  position: relative;
+  border-radius: 50%;
+  display: block;
+  height: 18rem;
+  width: 18rem;
+  object-fit: cover;
+  margin: 20px auto;
+  transition: all 0.3s ease;
+  z-index: 0;
+}
+.card-contenido{
+  font-size: 21px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 00;
+  font-size: 2rem;
+  z-index: 1;
+}
 
+.cargo{
+  background-color: #FFC94E;
+  padding: 2px 3px 3px 3px;
+  font-size: 27px;
+  font-family: 'Poppins', sans-serif;
+}
 
+.card-iconos{
+  list-style: none;
+  flex-direction: row;
+  display: inline-block;
+  position: relative;
 
+}
 
+.centraditos{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+}
 
 
 
@@ -303,65 +356,3 @@ font-weight: 700;
   font-weight: 500;
 }
 
-
-/*Martin*/
-
-.card{
-  height: 260px;
-  width: 250px;
-  overflow: hidden;
-  margin: auto;
-  /*padding: 10px 30px;*/ 
-  transition: all .4s ease-in-out;
-  overscroll-behavior-block: black(0,0,0,0.3);
-  text-align: center;
-}
-
-.card:hover{
-  height: 410px;
-  width: 250px;
-  border-radius: 5px;
-  box-shadow: 0px 2px 10px black(0,0,0,0.5);border-radius: 2%;
-  border: 1px solid #fff;
-  background-color: #fff;
-  box-shadow: 0px 1px 5px 0px; 
-  
-}
-
-.card-encabezado img {
-  position: relative;
-  border-radius: 50%;
-  display: block;
-  height: 200px;
-  width: 200px;
-  object-fit: cover;
-  margin: 20px auto;
-  transition: all 0.3s ease;
-}
-
-.card-contenido{
-  font-family: lora;
-  font-size: 21px;
-}
-
-.cargo{
-  background-color: #FFC94E;
-  padding: 2px 3px 3px 3px;
-  font-size: 27px;
-}
-
-.card-iconos{
-  list-style: none;
-  flex-direction: row;
-  display: inline-block;
-  position: relative;
-
-}
-
-.centraditos{
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  text-decoration: none;
-  list-style: none;
-}
