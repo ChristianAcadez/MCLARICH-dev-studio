@@ -98,7 +98,7 @@ html, body{
   padding-left: 30px;
   padding-right: 25px;
   font-size: larger;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight:400;
   margin-right: 3.5rem;
 }
@@ -196,7 +196,7 @@ html, body{
 }
 
 .card{
-  height: 22.7rem;
+  height: 23.1rem;
   width: 25rem;
   overflow: hidden;
   margin: auto;
@@ -306,11 +306,11 @@ html, body{
   margin-bottom: 35px
 }
 .projectdescription p{
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.7rem;
+  font-weight: 400;
   }
 .projectdescription h3{
-font-size: 1.7rem;
+font-size: 2rem;
 font-weight: 700;
 }
 .b1{
@@ -335,8 +335,17 @@ font-weight: 700;
   border-style: none;
 }
 .mockup{
-
+  grid-row: 2;
+  grid-column: 2;
+  width: 50rem; 
+  height: 30rem;
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  margin-top: -3rem;
+  margin-left: -8rem;
 }
+
 
 /*--------------------------*/
 .box8{
